@@ -10,7 +10,7 @@
 ## Links
 - Progress Tracker: [./docs/sources/CHANGELOG.md](./docs/sources/CHANGELOG.md)
 
-###### Section 1: Virtual Docking
+## Section 1: Virtual Docking
 
 **Background**: To improve the accuracy and consistency of current virtual docking algorithms,
 we are developing DeepDockR, a machine learning powered docking platform. Achieving that
@@ -22,4 +22,8 @@ a very important step is the choice and preparation of the structures to use for
 compounds to Carbonic Anhydrase I, by comparing the virtual docking results to available
 bioactivity data. The evaluation should comprise of regression and as well as ranking metrics.
 
+### Protein Evaluation 
 
+To tackle this goal we need to evaluate the protein in question. Protein's can exist in several different states but for evaluation of a docking software the user should pick a protein that is already in a docked state. Here we can determine what what exactly the pocket size looks like and how it interacts with a possible therapuetic inside of the protein. 
+
+For my evaluation I decided to select 
