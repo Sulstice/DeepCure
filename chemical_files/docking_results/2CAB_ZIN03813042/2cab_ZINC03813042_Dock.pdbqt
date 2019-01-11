@@ -1,0 +1,75 @@
+REMARK VINA RESULT:      -5.7      0.000      0.000
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C2_2  and  N1_4 
+REMARK    1  A    between atoms: C3_5  and  N1_4 
+REMARK    2  A    between atoms: C4_8  and  S2_10 
+REMARK    3  A    between atoms: N4_13  and  S2_10 
+REMARK viewdock state: V
+HETATM    1  C3  <0>     1      34.156  14.605 -19.489  1.00  0.00     0.197 A 
+HETATM    2  N2  <0>     1      34.876  15.704 -19.380  1.00  0.00    -0.122 NA
+HETATM    3  N3  <0>     1      34.961  16.341 -18.291  1.00  0.00    -0.126 NA
+HETATM    4  C4  <0>     1      34.313  15.894 -17.234  1.00  0.00     0.237 A 
+HETATM    5  S1  <0>     1      33.532  14.445 -17.931  1.00  0.00    -0.015 SA
+HETATM    6  S2  <0>     1      34.232  16.546 -15.599  1.00  0.00     0.282 S 
+HETATM    7  O2  <0>     1      34.269  15.432 -14.717  1.00  0.00    -0.199 OA
+HETATM    8  O3  <0>     1      35.179  17.602 -15.534  1.00  0.00    -0.199 OA
+HETATM    9  N4  <0>     1      32.738  17.238 -15.423  1.00  0.00    -0.323 N 
+HETATM   10  H5  <0>     1      32.657  18.130 -15.048  1.00  0.00     0.169 HD
+HETATM   11  H6  <0>     1      31.943  16.755 -15.697  1.00  0.00     0.169 HD
+HETATM   12  N1  <0>     1      33.958  13.794 -20.600  1.00  0.00    -0.305 N 
+HETATM   13  C2  <0>     1      32.918  14.024 -21.426  1.00  0.00     0.219 C 
+HETATM   14  C1  <0>     1      32.703  13.144 -22.632  1.00  0.00     0.117 C 
+HETATM   15  O1  <0>     1      32.155  14.939 -21.199  1.00  0.00    -0.274 OA
+HETATM   16  H4  <0>     1      34.568  13.062 -20.782  1.00  0.00     0.171 HD
+ENDMDL
+REMARK VINA RESULT:      -5.1      1.630      1.799
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C2_2  and  N1_4 
+REMARK    1  A    between atoms: C3_5  and  N1_4 
+REMARK    2  A    between atoms: C4_8  and  S2_10 
+REMARK    3  A    between atoms: N4_13  and  S2_10 
+REMARK viewdock state: V
+HETATM    1  C3  <0>     1      34.345  14.422 -19.408  1.00  0.00     0.197 A 
+HETATM    2  N2  <0>     1      33.575  13.838 -18.512  1.00  0.00    -0.122 NA
+HETATM    3  N3  <0>     1      33.376  14.343 -17.370  1.00  0.00    -0.126 NA
+HETATM    4  C4  <0>     1      33.954  15.487 -17.066  1.00  0.00     0.237 A 
+HETATM    5  S1  <0>     1      34.847  15.804 -18.583  1.00  0.00    -0.015 SA
+HETATM    6  S2  <0>     1      33.878  16.435 -15.582  1.00  0.00     0.282 S 
+HETATM    7  O2  <0>     1      32.656  17.159 -15.626  1.00  0.00    -0.199 OA
+HETATM    8  O3  <0>     1      34.203  15.552 -14.518  1.00  0.00    -0.199 OA
+HETATM    9  N4  <0>     1      35.094  17.556 -15.656  1.00  0.00    -0.323 N 
+HETATM   10  H5  <0>     1      35.640  17.733 -14.873  1.00  0.00     0.169 HD
+HETATM   11  H6  <0>     1      35.263  18.036 -16.482  1.00  0.00     0.169 HD
+HETATM   12  N1  <0>     1      34.664  14.005 -20.695  1.00  0.00    -0.305 N 
+HETATM   13  C2  <0>     1      33.917  14.409 -21.740  1.00  0.00     0.219 C 
+HETATM   14  C1  <0>     1      34.263  13.955 -23.136  1.00  0.00     0.117 C 
+HETATM   15  O1  <0>     1      32.964  15.138 -21.559  1.00  0.00    -0.274 OA
+HETATM   16  H4  <0>     1      35.426  13.421 -20.840  1.00  0.00     0.171 HD
+ENDMDL
+REMARK VINA RESULT:      -4.7      2.922      5.889
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C2_2  and  N1_4 
+REMARK    1  A    between atoms: C3_5  and  N1_4 
+REMARK    2  A    between atoms: C4_8  and  S2_10 
+REMARK    3  A    between atoms: N4_13  and  S2_10 
+REMARK viewdock state: V
+HETATM    1  C3  <0>     1      34.977  15.997 -18.746  1.00  0.00     0.197 A 
+HETATM    2  N2  <0>     1      34.424  16.540 -19.813  1.00  0.00    -0.122 NA
+HETATM    3  N3  <0>     1      34.583  16.052 -20.969  1.00  0.00    -0.126 NA
+HETATM    4  C4  <0>     1      35.321  14.970 -21.111  1.00  0.00     0.237 A 
+HETATM    5  S1  <0>     1      35.802  14.687 -19.413  1.00  0.00    -0.015 SA
+HETATM    6  S2  <0>     1      35.727  14.062 -22.566  1.00  0.00     0.282 S 
+HETATM    7  O2  <0>     1      36.716  14.817 -23.253  1.00  0.00    -0.199 OA
+HETATM    8  O3  <0>     1      35.939  12.718 -22.161  1.00  0.00    -0.199 OA
+HETATM    9  N4  <0>     1      34.381  14.059 -23.531  1.00  0.00    -0.323 N 
+HETATM   10  H5  <0>     1      33.830  14.856 -23.599  1.00  0.00     0.169 HD
+HETATM   11  H6  <0>     1      34.143  13.262 -24.030  1.00  0.00     0.169 HD
+HETATM   12  N1  <0>     1      34.904  16.404 -17.418  1.00  0.00    -0.305 N 
+HETATM   13  C2  <0>     1      34.001  15.844 -16.590  1.00  0.00     0.219 C 
+HETATM   14  C1  <0>     1      33.921  16.285 -15.150  1.00  0.00     0.117 C 
+HETATM   15  O1  <0>     1      33.251  14.984 -17.003  1.00  0.00    -0.274 OA
+HETATM   16  H4  <0>     1      35.503  17.092 -17.088  1.00  0.00     0.171 HD
+ENDMDL
