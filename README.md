@@ -9,6 +9,7 @@
 
 ## Links
 - Progress Tracker: [./docs/sources/CHANGELOG.md](./docs/sources/CHANGELOG.md)
+- Error Log: [./docs/sources/ERRORLOG.md](./docs/sources/ERRORLOG.md)
 
 ## Section 1: Virtual Docking
 
@@ -25,15 +26,31 @@ bioactivity data. The evaluation should comprise of regression and as well as ra
 ### Protein Evaluation 
 
 To tackle this goal we need to evaluate the protein in question. Protein's can exist in several different states but for evaluation of a docking software the user should pick a protein that is already in a docked state. Here we can determine what what exactly the pocket size looks like and how it interacts with a possible therapuetic inside of the protein. 
-
-Alternatively for evaluation of a docking software we can also remove a docked ligand from a protein and dock it again to the same protein. The drawbacks would be several 
-- Ligands could induce a minor flexibility in the protein in the docked state and would be biased towards the ligand if reused 
-- Time consumption would be drastic in terms of short-term docking where we would need to evaluate each ligand per protein in their docked states. Since the problem is asking for a minimum of 10 ligands it would scale linearly (also since it is not automated we run into the burnout of the user). 
     
-This served as my impetus for selecting [2cab.pdb](http://www.rcsb.org/structure/2CAB) which has the zinc ion in the pocket of the protein in the protein docked state which can be the most unbiased x-ray structure and prove as the docked protein template.
+The problem asks for evaluation of docking for CA1, to initialize we are going to big an undocked ligand into the protein which stems from the x-ray structure 2CAB.  [2cab.pdb](http://www.rcsb.org/structure/2CAB) which has the zinc ion in the pocket of the protein in the protein docked state which can be the most unbiased x-ray structure and prove as the docked protein template.
 
 ![2cab Protein](./imgs/2cab_undocked_protein_2.png)
 
 ### Ligand Selection 
 
+For our ligand selection we need enough chemical space to explore known inhitors, negative inhibitors, and possible positive inhibitors that match functional groups revelant to the known inhibitors. The ligands that I have chosen for this project are listed below. 
+
+Known Inhibitors            |  Common Name
+:-------------------------:|:-------------------------:
+<img src="./imgs/2d_ligands/Methazolamide.png" width="300" height="250"/> |  Methazolamide
+<img src="./imgs/2d_ligands/Polmacoxib.png" width="300" height="250"/>  |  Polmacoxib
+<img src="./imgs/2d_ligands/(R)-Methocarbamol.png" width="300" height="250"/> |  (R)-Methocarbamol
+<img src="./imgs/2d_ligands/(S)-Methocarbamol.png" width="300" height="250"/> |  (S)-Methocarbamol
+<img src="./imgs/2d_ligands/Acetazolamide.png" width="300" height="250"/> |  Acetazolamide
+
+Negative Inhibitors            |  Common Name
+:-------------------------:|:-------------------------:
+<img src="./imgs/2d_ligands/Terphenyl.png" width="300" height="250"/> |  Terphenyl
+<img src="./imgs/2d_ligands/Triphenylbenzene.png" width="300" height="250"/>  |  Triphenylbenzene
+
+Positive Inhibitors            |  Common Name
+:-------------------------:|:-------------------------:
+<img src="./imgs/2d_ligands/Adrafinil.png" width="300" height="250"/> |  Adrafinil
+<img src="./imgs/2d_ligands/Bucetin.png" width="300" height="250"/>  |  Bucetin
+<img src="./imgs/2d_ligands/Indol.png" width="300" height="250"/> |  Indol
 
