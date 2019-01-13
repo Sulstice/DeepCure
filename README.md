@@ -83,16 +83,41 @@ We are also limited by the data available:
 
 Results of the file are labeled here in this Excel Doc with only Kd Values caluclated and one correlation based on the ZINC ID of the compound. 
 
-Compound            |  Results
+Compound            |  Kinetic Energy Results
 :-------------------------:|:-------------------------:
-Methazolamide | Kd Values Determined. Known Values Determined. Correlated to have a difference of 0.000486 kcal/mol.
+Methazolamide | Kd Value was either 1. Not publicaly available, or 2. Very hard to find in relation to just CA1 of the chain.
 Polmacoxib | Km Values exist but because of the complexity of the binding of Polmaxocib didn't take into account Chain A, Chain B, and Chain C.
 (R)-Methocarbamol | Ki Values exist at an alarming rate of 50nm. A different so large it must be a concentration play at hand yield the error pretty much inconclusive. Hard to find the R binding.
 (S)-Methocarbamol |  Ki Values exist at an alarming rate of 50nm. A different so large it must be a concentration play at hand yield the error pretty much inconclusive. 
-Acetazolamide | Kd Value was either 1. Not publicaly available, or 2. Very hard to find in relation to just CA1 of the chain. 
+Acetazolamide | Kd Values Determined. Known Values Determined. Correlated to have a difference of 0.000486 kcal/mol. 
 Terphenyl | Kd Values Determined (No Known Values)
 Triphenylbenzene | Kd Values Determined (No Known Values)
 Adrafinil | Kd Values Determined (No Known Values)
 Bucetin | Kd Values Determined (No Known Values)
 Indol | Kd Values Determined (No Known Values)
 
+Compound            |  Coordinate Results
+:-------------------------:|:-------------------------:
+Methazolamide | Kd Value was either 1. Not publicaly available, or 2. Very hard to find in relation to just CA1 of the chain.
+Polmacoxib | Km Values exist but because of the complexity of the binding of Polmaxocib didn't take into account Chain A, Chain B, and Chain C.
+(R)-Methocarbamol | Ki Values exist at an alarming rate of 50nm. A different so large it must be a concentration play at hand yield the error pretty much inconclusive. Hard to find the R binding.
+(S)-Methocarbamol |  Ki Values exist at an alarming rate of 50nm. A different so large it must be a concentration play at hand yield the error pretty much inconclusive. 
+Acetazolamide | Kd Values Determined. Known Values Determined. Correlated to have a difference of 0.000486 kcal/mol. 
+Terphenyl | Kd Values Determined (No Known Values)
+Triphenylbenzene | Kd Values Determined (No Known Values)
+Adrafinil | Kd Values Determined (No Known Values)
+Bucetin | Kd Values Determined (No Known Values)
+Indol | Kd Values Determined (No Known Values)
+
+Compound            |  Visual Inspection Results
+:-------------------------:|:-------------------------:
+Methazolamide | Direct Binding into the active site and seemingly correct pose in the pocket validating inhibitor
+Polmacoxib | Direct Binding into the active site and seemingly correct pose in the pocket validating inhibitor. Also expansion of the Chains, A and B you can verify that the conformation looks seemingly correct. 
+(R)-Methocarbamol | Direct Binding into the active site and seemingly correct pose in the pocket validating inhibitor
+(S)-Methocarbamol |  Direct Binding into the active site and seemingly correct pose in the pocket validating inhibitor
+Acetazolamide | Direct Binding into the active site and seemingly correct pose in the pocket validating inhibitor
+Terphenyl | Barely fits into the mouth of pocket as predicted and fails to even reach the active site
+Triphenylbenzene | Barely fits into the mouth of the pocked as predicted and also again fails to reach the active site. 
+Adrafinil | Weaker binding that inhibitors but also due to the bulkiness of the phenyls prevents it from reaching the active site. 
+Bucetin | Surprisingly interested results and reaches the active site. Looks like it will have very strong binding and could serves an anchor for a more potent therapeutic. 
+Indol | Weak Binding but reaches the active site. 
