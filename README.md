@@ -130,3 +130,22 @@ Triphenylbenzene | Barely fits into the mouth of the pocked as predicted and als
 Adrafinil | Weaker binding that inhibitors but also due to the bulkiness of the phenyls prevents it from reaching the active site. 
 Bucetin | Surprisingly interested results and reaches the active site. Looks like it will have very strong binding and could serves an anchor for a more potent therapeutic. 
 Indol | Weak Binding but reaches the active site. 
+
+### Opinion
+
+Based on current efforts and results from this experiment, it proved to be not entirely inconclusive. Running experiments on negative controls helped the correlation to discover that AutoDock Vina showed what can be potentially bound and what cannot be. With the positive random inhibitors based on the functional groups of the known inhibitors we can predict to see what are lead potential therapeutics based solely on the AutoDock Vina score and free energy calculations. 
+
+Although we have some limiting factors
+ -  The lack of data that is publicaly available or the lack of data in general between ligands and proteins. Because of how expensive it can be to run NMR, ITC, and X-Ray Diffractions on protein-ligand complexes we lack a lot of chemical data which would prove useful in the effectiveness of the software
+ - The force fields used in the docking are only used to calculate using a single conformation of the complex with fixed stable parameters. 
+ 
+ Because of the complications with the docking software, at most, in it's current form we can use to identify potential binding functional groups and potential poses. It could serve as a beginning start to early stage drug-discovery but not capable enough of pushing out a drug. A major advancement in scoring functions will take in more parameters such as liver clearance, higher force field calculations with protein-ligand flexibilty, and cross chain pocket evaluation. As of right now we do need more manual inspection to drive AutoDock Vina futher. 
+
+## Section 2: Virtual Docking
+
+**Background:** DeepCure’s ML algorithms are capable of searching extensive chemical spaces
+for the best starting points for a drug development program. This leaves us with the question of
+how do we design and construct the virtual library which will be searched during this process.
+
+**Goal:** Construct a library of 10,000 distinct compounds, which are all synthesizable. The library
+should be optimized for chemical diversity, to span as much of the chemical space as possible.
