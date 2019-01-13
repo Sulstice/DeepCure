@@ -89,7 +89,7 @@ Methazolamide | Kd Values Determined. Known Values Determined. Correlated to hav
 Polmacoxib | Km Values exist but because of the complexity of the binding of Polmaxocib didn't take into account Chain A, Chain B, and Chain C.
 (R)-Methocarbamol | Ki Values exist at an alarming rate of 50nm. A different so large it must be a concentration play at hand yield the error pretty much inconclusive. Hard to find the R binding.
 (S)-Methocarbamol |  Ki Values exist at an alarming rate of 50nm. A different so large it must be a concentration play at hand yield the error pretty much inconclusive. 
-Acetazolamide | Ran into the same encounters 
+Acetazolamide | Kd Value was either 1. Not publicaly available, or 2. Very hard to find in relation to just CA1 of the chain. 
 Terphenyl | Kd Values Determined (No Known Values)
 Triphenylbenzene | Kd Values Determined (No Known Values)
 Adrafinil | Kd Values Determined (No Known Values)
