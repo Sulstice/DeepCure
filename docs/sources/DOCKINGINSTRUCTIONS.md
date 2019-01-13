@@ -41,10 +41,10 @@ Since the files from ZINC are already minimized Mol2 Files the ligand is pre pre
 
 - Add in the Docking Parameters as shown and move to the search parameters
 
-![Docking parameters](../../imgs/Autodock_Instructions/docking_prep_params.png)
+![Docking parameters](../../imgs/Autodock_Instructions/dock_prep_params.png)
 
 - Add in the Docking Search
 
-![Docking Search](../../imgs/Autodock_Instructions/docking_prep_search.png)
+![Docking Search](../../imgs/Autodock_Instructions/dock_prep_search.png)
 
 - Click Okay and run the simulation. 
