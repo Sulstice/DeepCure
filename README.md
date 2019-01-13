@@ -48,3 +48,17 @@ Negative inhibitors: were determined through manual inspection, after determinin
 
 Positive inhibitors: were selected from a blend of what was available from the ZINC Database and similarity functional groups as th known inhibitors. 
 
+### Grid Selection
+
+On preparation of the protein-ligands for autodocking, we need to prep the protein using the AutoDock tools. We can use Autodock tools to select hydrogen atoms, solvent interactions, merging non-polar hydrogen atoms onto their respective heavy atoms, and assigning atom types.
+
+Protein charges are implemented using force fields. For this experiment we will be using AMBER (AM1-BCC) that semi-emperical quantum mechanics to determine correct states. It's more accurate but slower than other force field rendering. 
+
+Using Chimera we will also be able to detect the sum of atomic charges lead to to an integer matching the summary charges.
+
+Docking Site Preparation, I set up a 3D grid of where the active site of the protein complex is. Because we are fortunate enough to have this active site known we can narrow down our search for potential inhibitors. Usually the active site would be determined through a 2D NMR approach or X-ray to evaluate where ligands are binding in corresponding to amino acids. 
+
+Here you can see the grid formation of the ligand. 
+
+![Grid_Protein](./imgs/2cab_grid.png)
+
