@@ -100,16 +100,16 @@ Indol | Kd Values Determined (No Known Values)
 
 Compound            |  Coordinate Results
 :-------------------------:|:-------------------------:
-Methazolamide | Kd Value was either 1. Not publicaly available, or 2. Very hard to find in relation to just CA1 of the chain.
-Polmacoxib | Km Values exist but because of the complexity of the binding of Polmaxocib didn't take into account Chain A, Chain B, and Chain C.
-(R)-Methocarbamol | Ki Values exist at an alarming rate of 50nm. A different so large it must be a concentration play at hand yield the error pretty much inconclusive. Hard to find the R binding.
-(S)-Methocarbamol |  Ki Values exist at an alarming rate of 50nm. A different so large it must be a concentration play at hand yield the error pretty much inconclusive. 
+Methazolamide | 
+Polmacoxib | 
+(R)-Methocarbamol | 
+(S)-Methocarbamol |   
 Acetazolamide | Kd Values Determined. Known Values Determined. Correlated to have a difference of 0.000486 kcal/mol. 
-Terphenyl | Kd Values Determined (No Known Values)
-Triphenylbenzene | Kd Values Determined (No Known Values)
-Adrafinil | Kd Values Determined (No Known Values)
-Bucetin | Kd Values Determined (No Known Values)
-Indol | Kd Values Determined (No Known Values)
+Terphenyl | No Comparable Coordinates 
+Triphenylbenzene |No Comparable Coordinates 
+Adrafinil | No Comparable Coordinates 
+Bucetin | No Comparable Coordinates 
+Indol | No Comparable Coordinates 
 
 <hr> 
 
