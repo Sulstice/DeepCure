@@ -104,7 +104,7 @@ Methazolamide |
 Polmacoxib | 
 (R)-Methocarbamol | 
 (S)-Methocarbamol |   
-Acetazolamide | Kd Values Determined. Known Values Determined. Correlated to have a difference of 0.000486 kcal/mol. 
+Acetazolamide |  
 Terphenyl | No Comparable Coordinates 
 Triphenylbenzene |No Comparable Coordinates 
 Adrafinil | No Comparable Coordinates 
