@@ -82,3 +82,17 @@ We are also limited by the data available:
 - ligands that haven't been tested before. 
 
 Results of the file are labeled here in this Excel Doc with only Kd Values caluclated and one correlation based on the ZINC ID of the compound. 
+
+Compound            |  Results
+:-------------------------:|:-------------------------:
+Methazolamide | Kd Values Determined. Known Values Determined. Correlated to have a difference of 0.000486 kcal/mol.
+Polmacoxib | Km Values exist but because of the complexity of the binding of Polmaxocib didn't take into account Chain A, Chain B, and Chain C.
+(R)-Methocarbamol | Ki Values exist at an alarming rate of 50nm. A different so large it must be a concentration play at hand yield the error pretty much inconclusive. Hard to find the R binding.
+(S)-Methocarbamol |  Ki Values exist at an alarming rate of 50nm. A different so large it must be a concentration play at hand yield the error pretty much inconclusive. 
+Acetazolamide | Ran into the same encounters 
+Terphenyl | Kd Values Determined (No Known Values)
+Triphenylbenzene | Kd Values Determined (No Known Values)
+Adrafinil | Kd Values Determined (No Known Values)
+Bucetin | Kd Values Determined (No Known Values)
+Indol | Kd Values Determined (No Known Values)
+
