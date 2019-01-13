@@ -83,6 +83,11 @@ We are also limited by the data available:
 
 Results of the file are labeled here in this Excel Doc with only Kd Values caluclated and one correlation based on the ZINC ID of the compound. 
 
+We can test the docking performance of Autodock Vina on 3 main categories. 
+- Predicted Free Energy of the Compound
+- Clustered Docking Conformations based on the RMSD Coordindates
+- Visual Inspection of the Docking Poses 
+
 Compound            |  Kinetic Energy Results
 :-------------------------:|:-------------------------:
 Methazolamide | Kd Value was either 1. Not publicaly available, or 2. Very hard to find in relation to just CA1 of the chain.
