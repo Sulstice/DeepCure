@@ -10,6 +10,7 @@
 ## Links
 - Progress Tracker: [./docs/sources/CHANGELOG.md](./docs/sources/CHANGELOG.md)
 - Error Log: [./docs/sources/ERRORLOG.md](./docs/sources/ERRORLOG.md)
+- Ligand Selection [./docs/sources/LIGANDSELECTION.md](./docs/sources/LIGANDSELECTION.md)
 
 ## Section 1: Virtual Docking
 
@@ -33,24 +34,5 @@ The problem asks for evaluation of docking for CA1, to initialize we are going t
 
 ### Ligand Selection 
 
-For our ligand selection we need enough chemical space to explore known inhitors, negative inhibitors, and possible positive inhibitors that match functional groups revelant to the known inhibitors. The ligands that I have chosen for this project are listed below. 
-
-Known Inhibitors            |  Common Name
-:-------------------------:|:-------------------------:
-<img src="./imgs/2d_ligands/Methazolamide.png" width="300" height="250"/> |  Methazolamide
-<img src="./imgs/2d_ligands/Polmacoxib.png" width="300" height="250"/>  |  Polmacoxib
-<img src="./imgs/2d_ligands/(R)-Methocarbamol.png" width="300" height="250"/> |  (R)-Methocarbamol
-<img src="./imgs/2d_ligands/(S)-Methocarbamol.png" width="300" height="250"/> |  (S)-Methocarbamol
-<img src="./imgs/2d_ligands/Acetazolamide.png" width="300" height="250"/> |  Acetazolamide
-
-Negative Inhibitors            |  Common Name
-:-------------------------:|:-------------------------:
-<img src="./imgs/2d_ligands/Terphenyl.png" width="300" height="250"/> |  Terphenyl
-<img src="./imgs/2d_ligands/Triphenylbenzene.png" width="300" height="250"/>  |  Triphenylbenzene
-
-Positive Inhibitors            |  Common Name
-:-------------------------:|:-------------------------:
-<img src="./imgs/2d_ligands/Adrafinil.png" width="300" height="250"/> |  Adrafinil
-<img src="./imgs/2d_ligands/Bucetin.png" width="300" height="250"/>  |  Bucetin
-<img src="./imgs/2d_ligands/Indol.png" width="300" height="250"/> |  Indol
+For our ligand selection we need enough chemical space to explore known inhitors, negative inhibitors, and possible positive inhibitors that match functional groups revelant to the known inhibitors. The ligands that I have chosen for this project are listed in [Ligand Selection](./docs/sources/LIGANDSELECTION.md)
 
