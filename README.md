@@ -11,6 +11,7 @@
 - Progress Tracker: [./docs/sources/CHANGELOG.md](./docs/sources/CHANGELOG.md)
 - Error Log: [./docs/sources/ERRORLOG.md](./docs/sources/ERRORLOG.md)
 - Ligand Selection [./docs/sources/LIGANDSELECTION.md](./docs/sources/LIGANDSELECTION.md)
+- Docking Instructions [./docs/sources/DOCKINGINSTRUCTIONS.md](./docs/sources/DOCKINGINSTRUCTIONS.md)
 
 ## Section 1: Virtual Docking
 
@@ -62,3 +63,22 @@ Here you can see the grid formation of the ligand.
 
 ![Grid_Protein](./imgs/2cab_grid.png)
 
+For docking instructions please follow the ![Docking Instructions](./docs/sources/DOCKINGINSTRUCTIONS.md) 
+
+### Results
+
+This was a challenge for analysis of the docking results. We are limited by both the software and the results of the complexes and also how the software calculated it's scoring function. 
+
+AutoDock Vina seems to be running it's own scoring function that doesn't directly correlate to a Kd value. The Kd will be widely used as the primary docking measurement to detect the binding efficiency of the ligand. 
+
+To calculate the Kd Value we have a couple of parameters that are not in our control 
+- Concentration of the Ligand | Autodock Vina assumes it is at 1nM
+- PH Level | AutoDock Vina assumes it is at 7~8
+- Temperature | AutoDock Vina assumes it is at 25 C or 298K 
+
+We are also limited by the data available:
+- online pdb banks
+- publication restrictions
+- ligands that haven't been tested before. 
+
+Results of the file are labeled here in this Excel Doc with only Kd Values caluclated and one correlation based on the ZINC ID of the compound. 
