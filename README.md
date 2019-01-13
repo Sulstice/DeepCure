@@ -32,7 +32,7 @@ Alternatively for evaluation of a docking software we can also remove a docked l
     
 This served as my impetus for selecting [2cab.pdb](http://www.rcsb.org/structure/2CAB) which has the zinc ion in the pocket of the protein in the protein docked state which can be the most unbiased x-ray structure and prove as the docked protein template.
 
-![2cab Protein](./chemical_files/proteins/undocked_proteins/2cab_undocked_protein.png)
+![2cab Protein](./imgs/2cab_undocked_protein_2.png)
 
 ### Ligand Selection 
 
