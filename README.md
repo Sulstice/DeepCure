@@ -96,6 +96,8 @@ Adrafinil | Kd Values Determined (No Known Values)
 Bucetin | Kd Values Determined (No Known Values)
 Indol | Kd Values Determined (No Known Values)
 
+<hr>
+
 Compound            |  Coordinate Results
 :-------------------------:|:-------------------------:
 Methazolamide | Kd Value was either 1. Not publicaly available, or 2. Very hard to find in relation to just CA1 of the chain.
@@ -108,6 +110,8 @@ Triphenylbenzene | Kd Values Determined (No Known Values)
 Adrafinil | Kd Values Determined (No Known Values)
 Bucetin | Kd Values Determined (No Known Values)
 Indol | Kd Values Determined (No Known Values)
+
+<hr> 
 
 Compound            |  Visual Inspection Results
 :-------------------------:|:-------------------------:
