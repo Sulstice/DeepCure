@@ -24,3 +24,11 @@ Documentation Documentation Documentation!
 01/12/2019 
 
 Performing Statistical Analysis on the chemical ligands as they go through the substrates. And more documentation.
+
+02/01/2019 
+
+Dived deep into the development of Markush Structures to enumerate libraries (Use this as the base for exploring Chemical Space)
+
+02/07/2019 
+
+Putting the pipeline together, using Randomize Smiles to effectively train machine learning algorithms 
