@@ -242,5 +242,5 @@ Our LogP Graph:
 We want to be able to diversify our ligand choice but it needs to adhere to a statistical analysis we would like 
 The experiment will head into workflow like so:
 
-![Grid_Protein](./imgs/workflow_chem.png)
+![Grid_Protein](./imgs/DevOps.png)
 
