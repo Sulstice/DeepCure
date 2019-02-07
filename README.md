@@ -200,6 +200,44 @@ What's the algorithm for doing such things? Well thankfully someone already has 
 
 I've included the python implementation of the Free-Wilson Library below (with some modifications) to help us generate the structure.
 
+Here is an example of enumeration:
+
+![enumeration](./imgs/enumeration.png)
+
+So we can combine the R groups with our scaffold molecule and we have automatically 22 molecules with different combinations! 
+
+What if we enumerated our dataset of 100 molecules times the 22 modifications to the R Groups, based on what we can remove and then implement. The results can be exponential. If you head into the free wilson implementation and preparation of the molcules we can run through just that. 
+
+#### Enumeration
+
+Since we are implementing for a machine learning algorithm we need to verify that we are augmenting the data. What do I really mean by that?
+
+Well machine learning algorithms need all representations of the data to make a reasonable conclusion.
+
+For example take this cat photo:
+
+![cats](./imgs/cat_photo.png)
+
+Here we have representation of a cat in all different forms, the algorithm will have to learn that all of these images are still a cat at it's core. 
+
+This is the same case as SMILES for feeding into data sets. We need to actually have multiple representation of SMILES.
+
+Conveniently, there is a script inside labeled as enumerate_smiles.py that does exactly that! 
+
+With one molecule we can average generated ~75 smiles variations depedent on size of the molecule. 
+
+So with our molecule set I enumerated all smiles and what do you know we have roughly 5000+ different smiles representation of molecules with combinations of R group.
+
+Our molecular weight distribution looks a little like this:
+
+![Molecular Weight](./imgs/Molecular Weight Distribution.png)
+
+Our LogP Graph:
+
+![LogP](./imgs/LogP Distribution.png)
+
+![LogS](./imgs/LogS Distribution.png)
+
 
 We want to be able to diversify our ligand choice but it needs to adhere to a statistical analysis we would like 
 The experiment will head into workflow like so:
