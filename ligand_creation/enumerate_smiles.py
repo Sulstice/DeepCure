@@ -92,9 +92,11 @@ def get_mol_set(smile, tries=10000):
     canonical = Chem.MolToSmiles(Chem.MolFromSmiles(smile))
     s.add(canonical)
     for _ in range(tries):
-        mol = RandomizeSmile()
-        if not mol:
+        mol = RandomizeSmile(smile)
+        if mol != None:
+            # print (mol)
             s.add(mol)
+    print (s)
 
     return s
 
@@ -108,9 +110,9 @@ if __name__ == "__main__":
 
         for row in reader:
             get_molecular_weight(row['SMILES'])
-            with open (r'randomized_smiles.csv', 'w', newline='') as write_file:
+            with open(r"randomized_smiles.csv", 'w', newline='') as write_file:
                 write=csv.writer(write_file)
-                write.writerows([r] for r in get_mol_set(row["SMILES"]))
+                write.writerows([r] for r in list(get_mol_set(row['SMILES'])))
 
     with open (r'molecular_weight.csv', 'w', newline='') as write_file:
         write=csv.writer(write_file)
