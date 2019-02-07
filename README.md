@@ -238,9 +238,12 @@ Our LogP Graph:
 
 ![LogS](./imgs/LogS.png)
 
-
-We want to be able to diversify our ligand choice but it needs to adhere to a statistical analysis we would like 
 The experiment will head into workflow like so:
 
 ![Grid_Protein](./imgs/DevOps.png)
 
+Future Implementations that do not include tomorrow's presentation:
+
+RetroPath 2.0
+Automatic Markush Construction
+Patent Search
