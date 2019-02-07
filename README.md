@@ -152,14 +152,57 @@ This problem target the main apex pain point hindering chemical modeling today. 
 
 Questions arise:
     - How do we construct these chemical libraries?
-    - How do we construct these chemical libraries expanding the most chemical diversity possible. 
+    - How do we construct these chemical libraries expanding the most chemical diversity possible?
+    - How do we construct chemical libraries exploring as many combinations of representation of data as possible? 
     - Added on to this what style of chemical libaries are we constructing? (Natural/Non-Natural Amino Acids versus small molecule inhibitors) 
-    - How do we create these chemical libraries so it adheres to easy synthesis or, to make the chemists happy, can be constructed through click chemistry methods. 
-    
-For this study I am using the MolPort catalog as my dataset. Molport is a free open source database housing ~10000ish compounds used as building blocks. Molport's database is diverse enough where we can map out reactions and intermediates for proposed chemical libraries and exploring as much of the space as possible. 
+    - How do we create these chemical libraries so it adheres to easy synthesis or, to make the chemists happy, can be constructed through click chemistry methods.
+    - How do construct datasets that are not in violation with existing patents for pharma companies today? 
 
+#### Ligand Selection
+
+For this study I am using the MolPort catalog as my dataset. Molport is a free open source database housing ~4.2mil+ compounds used as building blocks. Molport's database is diverse enough in terms of Chemical Space where we can explore freely. 
+
+There's a couple of things we need to consider for choosing our data set and I've gone for the Principal Moments of Inertia approach. 
+
+What this really entails that a molecule would fit into one of three different shapes or be more geared towards one direction (rod, sphere, or disc).
+
+    - Rod: Means the molecule is more elongated like a peptide backbone chain
+    - Sphere: Means the molecule is more 3D for example bridged conformations.
+    - Disc: Means the molecule is more 2D but round. For example benzene rings are disc-like but with the sp2 carbons they remain flat.
+    
+For a first pass implementation of the docking to a protein of unknown character we can extrapolate the information based on what type of shape the protein responds to. 
+
+The graph would be a depiction like this with example molecules listed below:
+
+![PMI IMAGE](./imgs/PMI_Diagram.png)
+
+So what would our dataset of molecules look like:
+
+Here is an example of what is being used in the experiment:
+
+![dataset_image_1](./imgs/ligand_set_3.png)
+
+And maybe more within the imgs folder. 
+
+So if we choose roughly ~100 molecules that's not too many to get an accurate analysis, how do we enumerate this dataset. Hint: Read to the next section....
+
+#### Enumeration
+
+How are we going to Enumerate these molecules, well the idea stems from Eugene A. Markush who invented the representation of a foundation molcule with selective R Groups. These R groups could range from anything and used to gain complete statistical 2D rendering of molecules that are synthesizable.  
+
+Here is an example of a Markush Structure:
+
+![markush](./imgs/numeration_example.png)
+
+We can actually use markush structures to expand the 2D set the only conflicting ideaology is that we might run into some legal issues when extrapolating data. 
+
+What's the algorithm for doing such things? Well thankfully someone already has actually tackled that for us. Free-Wilson implement a SAR analysis for markush structures that help us in computationally designing an experiment. 
+
+I've included the python implementation of the Free-Wilson Library below (with some modifications) to help us generate the structure.
+
+
+We want to be able to diversify our ligand choice but it needs to adhere to a statistical analysis we would like 
 The experiment will head into workflow like so:
 
 ![Grid_Protein](./imgs/workflow_chem.png)
-
 
