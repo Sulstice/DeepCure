@@ -230,13 +230,13 @@ So with our molecule set I enumerated all smiles and what do you know we have ro
 
 Our molecular weight distribution looks a little like this:
 
-![Molecular Weight](./imgs/Molecular Weight Distribution.png)
+![Molecular Weight](./imgs/MWD.png)
 
 Our LogP Graph:
 
-![LogP](./imgs/LogP Distribution.png)
+![LogP](./imgs/LogP.png)
 
-![LogS](./imgs/LogS Distribution.png)
+![LogS](./imgs/LogS.png)
 
 
 We want to be able to diversify our ligand choice but it needs to adhere to a statistical analysis we would like 
