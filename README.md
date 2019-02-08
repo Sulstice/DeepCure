@@ -86,6 +86,19 @@ We can test the docking performance of Autodock Vina on 3 main categories.
 - Clustered Docking Conformations based on the RMSD Coordindates
 - Visual Inspection of the Docking Poses 
 
+I wasn't able to find the protein in the undocked state as free, the best I was able to receive was a Zinc Ion Core in a salt solution. 
+
+Here you can say the overlay which matches 100% Identity to most structures:
+
+![Overlay](./imgs/Overlay.png)
+
+I also ran into a lot of problems in regards to Chimera, MatchMaker Suite, and Autodock Vina. I was unable to write the PDB files from the software and do a direct comparison to the X-Ray Structure because of this conundrum. 
+
+![Overlay_2](./chemical_files/docking_results/2CAB_ZIN03813042/Overlay.png)
+
+To achieve the results I capture the coordinates of the atoms did a direct coorelation to the crystal structure to achieve the RMSD calculations. Although if I had to work alignment into the equation the error margins would be massive. 
+
+
 Compound            |  Kinetic Energy Results
 :-------------------------:|:-------------------------:
 Methazolamide | Kd Value was either 1. Not publicaly available, or 2. Very hard to find in relation to just CA1 of the chain.
