@@ -103,11 +103,11 @@ Indol | Kd Values Determined (No Known Values)
 
 Compound            |  Coordinate Results
 :-------------------------:|:-------------------------:
-Methazolamide | 
-Polmacoxib | 
-(R)-Methocarbamol | 
-(S)-Methocarbamol |   
-Acetazolamide |  
+Methazolamide | RMSD - Chimera is a little challenging in determining the RMSD after docked results
+Polmacoxib |#
+(R)-Methocarbamol | #
+(S)-Methocarbamol | #
+Acetazolamide | #
 Terphenyl | No Comparable Coordinates 
 Triphenylbenzene |No Comparable Coordinates 
 Adrafinil | No Comparable Coordinates 
@@ -118,7 +118,7 @@ Indol | No Comparable Coordinates
 
 Compound            |  Visual Inspection Results
 :-------------------------:|:-------------------------:
-Methazolamide | Direct Binding into the active site and seemingly correct pose in the pocket validating inhibitor
+Methazolamide | Was incorrect binding into the inhibitor, the pose depicted in the x-ray of 1bzm bound through the nitrogen. Instead the software chose for it's top candidates binding into the double oxygen instead (More electron donors). 
 Polmacoxib | Direct Binding into the active site and seemingly correct pose in the pocket validating inhibitor. Also expansion of the Chains, A and B you can verify that the conformation looks seemingly correct. 
 (R)-Methocarbamol | Direct Binding into the active site and seemingly correct pose in the pocket validating inhibitor
 (S)-Methocarbamol |  Direct Binding into the active site and seemingly correct pose in the pocket validating inhibitor
@@ -132,6 +132,8 @@ Indol | Weak Binding but reaches the active site.
 ### Opinion
 
 Based on current efforts and results from this experiment, it proved to be not entirely inconclusive. Running experiments on negative controls helped the correlation to discover that AutoDock Vina showed what can be potentially bound and what cannot be. With the positive random inhibitors based on the functional groups of the known inhibitors we can predict to see what are lead potential therapeutics based solely on the AutoDock Vina score and free energy calculations. 
+
+Autodock Vina also favors strong hydrogen bond donors binding into the Zinc Core. Which is skewing the posing results and eliminating posing factors. 
 
 Although we have some limiting factors
  -  The lack of data that is publicaly available or the lack of data in general between ligands and proteins. Because of how expensive it can be to run NMR, ITC, and X-Ray Diffractions on protein-ligand complexes we lack a lot of chemical data which would prove useful in the effectiveness of the software
