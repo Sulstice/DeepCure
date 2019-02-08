@@ -103,11 +103,11 @@ Indol | Kd Values Determined (No Known Values)
 
 Compound            |  Coordinate Results
 :-------------------------:|:-------------------------:
-Methazolamide | RMSD - Chimera is a little challenging in determining the RMSD after docked results
-Polmacoxib |#
-(R)-Methocarbamol | #
-(S)-Methocarbamol | #
-Acetazolamide | #
+Methazolamide | RMSD = 2.52 Best Docked Result
+Polmacoxib | Since we only had a fraction of the molecule partially bound to Chain A we recieved a score of 1.81
+(R)-Methocarbamol | RMSD = 2.54
+(S)-Methocarbamol | No Comparable Coordinates (determined it was R)
+Acetazolamide | RMSD = 3.19
 Terphenyl | No Comparable Coordinates 
 Triphenylbenzene |No Comparable Coordinates 
 Adrafinil | No Comparable Coordinates 
@@ -134,6 +134,8 @@ Indol | Weak Binding but reaches the active site.
 Based on current efforts and results from this experiment, it proved to be not entirely inconclusive. Running experiments on negative controls helped the correlation to discover that AutoDock Vina showed what can be potentially bound and what cannot be. With the positive random inhibitors based on the functional groups of the known inhibitors we can predict to see what are lead potential therapeutics based solely on the AutoDock Vina score and free energy calculations. 
 
 Autodock Vina also favors strong hydrogen bond donors binding into the Zinc Core. Which is skewing the posing results and eliminating posing factors. 
+
+Autodock Vina also doesn't handle match making as well as it should, we run into a lot of issues regarding the file formats that are produced to do manual coordination determination. I would rather use MOE or schrodinger something a little high calibur to analze docking results. 
 
 Although we have some limiting factors
  -  The lack of data that is publicaly available or the lack of data in general between ligands and proteins. Because of how expensive it can be to run NMR, ITC, and X-Ray Diffractions on protein-ligand complexes we lack a lot of chemical data which would prove useful in the effectiveness of the software
