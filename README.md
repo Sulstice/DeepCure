@@ -98,6 +98,10 @@ I also ran into a lot of problems in regards to Chimera, MatchMaker Suite, and A
 
 To achieve the results I capture the coordinates of the atoms did a direct coorelation to the crystal structure to achieve the RMSD calculations. Although if I had to work alignment into the equation the error margins would be massive. 
 
+Here is an example of those grueling input of xyz coordinates....
+
+![Coordinates](./chemical_files/docking_results/2CAB_ZIN03813042/coordinates.png)
+
 
 Compound            |  Kinetic Energy Results
 :-------------------------:|:-------------------------:
@@ -259,8 +263,29 @@ The experiment will head into workflow like so:
 
 ![Grid_Protein](./imgs/DevOps.png)
 
-Future Implementations that do not include tomorrow's presentation:
+Next Steps
 
-RetroPath 2.0
-Automatic Markush Construction
-Patent Search
+- Dynamic Creation of fragmentation with set amount of R Groups with the experimentation script.
+- Eliminate the duplicates in SMILES and 2D representations. 
+
+Idea behind it:
+
+Take the Core:
+
+![CORE](./imgs/mol_core.png)
+
+Fragmentation
+
+![CORE_AGAIN](./imgs/fragmentation_enumeration.png)
+
+- RetroPath 2.0
+
+So you are think of reactions and how that is actually synthesizable. Well we are going to implement the great library of RetroPath2.0....more on that later as it is being developed. 
+
+![Retropath](./imgs/retropath.jpg)
+
+Awaiting ChemAxon Response:
+
+- Automatic Markush Construction
+
+- Patent Search
